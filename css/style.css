@@ -480,11 +480,15 @@ body {
   text-align: center;
   padding: 0 15px 0 10px;
 }
+.section-5 {
+    background: #ffffff url("assets/assets_0005s_0002s_0000_Layer-18.png") no-repeat right top;
+
+}
 
 .section-5 img {
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: -1300px;
+  /* margin-top: -1300px; */
 }
 
 .section-5 h1 {
@@ -519,14 +523,14 @@ body {
   position: relative;
 }
 
-.section-5.customers {
+.section-5.customers p {
   color: black;
   font-size: 24px;
   font-family: 'Poppins': sans-serif;
   line-height: 2;
   position: relative;
   height: 400px;
-  position: relative;
+  position: absolute;
 }
 
 .testimonials {
