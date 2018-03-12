@@ -459,6 +459,7 @@ body {
 
 .table {
   display:block;
+  margin: auto;
 }
 .row {
   display:block;
@@ -509,4 +510,39 @@ body {
   margin-bottom: -180px;
   margin-left: 400px;
   width: 1000px;
+}
+
+.vertical-line {
+  margin: auto;
+  margin-bottom: 900px;
+  margin-left: 600px;
+  position: relative;
+}
+
+.section-5.customers {
+  color: black;
+  font-size: 24px;
+  font-family: 'Poppins': sans-serif;
+  line-height: 2;
+  position: relative;
+  height: 400px;
+  position: relative;
+}
+
+.testimonials {
+  display: inline;
+
+}
+
+.test-box {
+  background-color: purple;
+  background-size: contain;
+  border: 1px solid white;
+}
+.section-6 {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 9999px;
+  margin: 0;
 }
