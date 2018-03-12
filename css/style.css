@@ -325,6 +325,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
 }
 
 .black-square h1 {
@@ -372,4 +373,132 @@ body {
   float: left;
   position: absolute;
   padding-bottom: 600px;
+  margin-top: -250px;
+  margin-left: 250px;
+  background-image: url("css/assets/allshadows.png");
   }
+
+  .pencils2 {
+  float: left;
+  position: absolute;
+  padding-bottom: 600px;
+  margin-top: -218px;
+  margin-left: 250px;
+  }
+
+  .black-square-copy {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    padding: 0;
+    border: 20px solid black;
+    float: left;
+    width: 575px;
+    height: 550px;
+  }
+
+.what-we-do-picture img {
+  margin-top: 50px;
+  margin-left: 50px;
+  max-width: 650px;
+  height: 450px;
+  margin-bottom: -375px;
+}
+
+.purple-rectangle img {
+  position: relative;
+  margin-top: 38px;
+  margin-left: 415px;
+  width: 500px;
+  height: 225px;
+}
+
+.prevnext {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 70px;
+  max-width: 200px;
+  height: auto;
+}
+
+.purple-rectangle h1 {
+  font-size: 300px;
+  font-weight: lighter;
+  color: black;
+  line-height: 1;
+  position: absolute;
+  left: 730px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.purple-rectangle h4 {
+  font-size: 70px;
+  font-weight: lighter;
+  color: rgb(255, 168, 0);
+  position: relative;
+  margin: auto;
+  margin-top: -200px;
+  margin-left: 375px;
+  width: 400px;
+}
+
+.purple-rectangle p {
+  position: relative;
+  font-size: 18px;
+  font-family: 'Poppins': sans-serif;
+  font-weight: lighter;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  margin-left: 450px;
+  width: 500px;
+  text-transform: none;
+  letter-spacing: .10em;
+}
+
+.table {
+  display:block;
+}
+.row {
+  display:block;
+}
+.cell {
+  display:inline-block;
+  position: relative;
+  margin-top: 530px;
+  margin-left: 950px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.cell p {
+  color: black;
+  width: 115px;
+  text-align: left;
+  padding: 0 5px 0 10px;
+}
+
+.top-line {
+  margin: auto;
+}
+
+.section-5 {
+  background-image: url("css/assets/assets_0005s_0002s_0000_Layer-18.png");
+  background-position: center;
+  position: relative;
+  margin-top: 270px;
+  transform: rotateZ(1px);
+}
+.section-5 img {
+  height: 100%;
+  width: 1200px;
+}
+
+.section-5 h1 {
+  color: black;
+  font-size: 74px;
+  position: absolute;
+  margin: auto;
+
+}
