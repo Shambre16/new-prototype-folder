@@ -480,15 +480,17 @@ body {
   text-align: center;
   padding: 0 15px 0 10px;
 }
-.section-5 {
-    background: #ffffff url("assets/assets_0005s_0002s_0000_Layer-18.png") no-repeat right top;
-
-}
 
 .section-5 img {
+  background-image: url("../css/assets/assets_0005s_0002s_0000_Layer-18.png");
   background-position: center;
-  background-repeat: no-repeat;
-  /* margin-top: -1300px; */
+  background-size: cover;
+  height: 155vh;
+  position: absolute;
+  padding-top: 10px;
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 
 .section-5 h1 {
@@ -516,12 +518,6 @@ body {
   width: 1000px;
 }
 
-.vertical-line {
-  margin: auto;
-  margin-bottom: 900px;
-  margin-left: 600px;
-  position: relative;
-}
 
 .section-5.customers p {
   color: black;
@@ -530,23 +526,4 @@ body {
   line-height: 2;
   position: relative;
   height: 400px;
-  position: absolute;
-}
-
-.testimonials {
-  display: inline;
-
-}
-
-.test-box {
-  background-color: purple;
-  background-size: contain;
-  border: 1px solid white;
-}
-.section-6 {
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 9999px;
-  margin: 0;
 }
