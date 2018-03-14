@@ -80,19 +80,17 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   word-spacing: 10px;
-  background-color: green;
   font-size: 16px;
-  position: absolute;
-  margin-top: 515px;
   display: inline;
   padding: 0;
+  width: 1000px;
 }
 
 .sidebar ul li {
   margin: auto;
   display: inline;
-  width: fit-content;
   word-spacing: 100px;
+  padding: 0;
 }
 
 .sidebar li a {
@@ -105,6 +103,8 @@ body {
 .social ul {
   padding: 0;
   display: inline-block;
+  margin: auto;
+  margin-top: 500px;
 }
 
 .social li {
@@ -352,7 +352,7 @@ body {
   color: black;
   line-height: 1;
   position: absolute;
-  left: 1050px;
+  left: 1350px;
 }
 
 .black-square {
@@ -502,7 +502,7 @@ body {
   position: relative;
   width: 1000px;
   margin: auto;
-  margin-top: 870px;
+  margin-top: 1000px;
 }
 
 .section-5 h1 {
@@ -536,7 +536,7 @@ body {
   text-transform: none;
 }
 
-.testimonial-container {
+.testimonials.test-box {
   margin: auto;
   display: inline;
 }
@@ -544,29 +544,35 @@ body {
 .test-box.one {
   border: 1px solid white;
   background-color: white;
-  background-size: contain;
   font-size: 18px;
   font-family: 'Georgia';
   text-align: center;
   margin: auto;
+  height: fit-content;
+  width: fit-content;
 }
 
-.test-box.second {
+.test-box.two {
   border: 1px solid white;
   background-color: rgb(105, 79, 202);
-  background-size: cover;
   font-size: 18px;
   font-family: 'Georgia';
   text-align: center;
   margin: auto;
+  height: fit-content;
+  width: fit-content;
 }
 
-.test-box.third {
+.test-box.three {
   border: 1px solid white;
   background-color: white;
-  background-size: cover;
   font-size: 18px;
   font-family: 'Georgia';
+  line-height: 1;
   text-align: center;
   margin: auto;
+  height: fit-content;
+  width: fit-content;
+}
+
 }
