@@ -285,7 +285,7 @@ body {
 }
 
 .section3 {
-  background-image: url("../css/assets/WeAreUnity.png");
+  background-image: url("assets/WeAreUnity.png");
   background-position: center;
   background-size: cover;
   height: 155vh;
@@ -295,7 +295,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+video
 .section3 h1 {
   font-size: 100px;
   font-weight: lighter;
@@ -315,7 +315,7 @@ body {
 
 .love {
   margin: auto;
-  padding; 100px 100px;
+  padding: 100px 100px;
   width: 850px;
 }
 
@@ -478,6 +478,7 @@ body {
   line-height: 1.5;
 }
 
+
 .cell p {
   color: black;
   width: 120px;
@@ -512,7 +513,7 @@ body {
   margin-bottom: 0;
 }
 
-.section-5 p {
+.global p {
   color: black;
   font-size: 40px;
   font-weight: lighter;
@@ -520,11 +521,11 @@ body {
   letter-spacing: .10em;
 }
 
-
 .vertical-line {
   margin: auto;
   margin-top: 100px;
 }
+
 
 .section-5 h5 {
   color: black;
@@ -534,45 +535,93 @@ body {
   margin: auto;
   margin-top: 100px;
   text-transform: none;
+  margin-bottom: 50px;
 }
 
-.testimonials.test-box {
+
+.testimonial-container {
   margin: auto;
-  display: inline;
+  width: 750px;
 }
 
-.test-box.one {
-  border: 1px solid white;
-  background-color: white;
-  font-size: 18px;
+
+.testimonial-container div{
+  margin: auto;
+  display: inline-block;
+}
+
+.testimonial {
+  height: 350px;
+  width: 211px;
+  padding: 10px;
+  font-size: 12px;
   font-family: 'Georgia';
-  text-align: center;
-  margin: auto;
-  height: fit-content;
-  width: fit-content;
+  line-height: 1.5;
+  text-transform: none;
+  margin-bottom: 10px;
 }
 
-.test-box.two {
-  border: 1px solid white;
+.testimonial.odd {
+  background-color: white;
+}
+
+.bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  margin-bottom: 0;
+}
+
+.gold {
+  color: rgb(255, 168, 0);
+  font-weight: lighter;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+}
+
+.gray {
+  color: gray;
+  text-transform: uppercase;
+}
+
+.testimonial.left {
+  float: left;
+}
+
+.testimonial.center {
+  background-color: gray;
+  box-shadow: 0.785px 14.979px 15.48px 2.52px rgba(0, 0, 0, 0.38);
+}
+
+.testimonial.right {
+  float: right;
+}
+
+.testimonial.even {
   background-color: rgb(105, 79, 202);
-  font-size: 18px;
-  font-family: 'Georgia';
-  text-align: center;
-  margin: auto;
-  height: fit-content;
-  width: fit-content;
+  color: white;
 }
 
-.test-box.three {
-  border: 1px solid white;
-  background-color: white;
-  font-size: 18px;
-  font-family: 'Georgia';
-  line-height: 1;
-  text-align: center;
-  margin: auto;
-  height: fit-content;
-  width: fit-content;
+.testimonial.even.gold {
+  color: rgb(105, 79, 202);
 }
 
+.testimonial>.avatar {
+  height: 100px;
+  width: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.stars {
+  margin-bottom: 25px;
+}
+
+.uppercase {
+  margin: 0;
+}
+
+.blurb {
+  margin: auto;
+  margin-bottom: 20px;
 }
