@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/bootstrap copy.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/fontello.css">
-  </head>
-  <body>
-    <!-- Fluid wrapper for the whole page -->
-    <div class="container-fluid">
-      <!-- Header row -->
-      <div class="header-container row">
-        <div class="logo col-md-3"><img src="img/Logo.png" alt="NortSea Logo"/img>
-        </div>
-        <div class="col-md-9">
-          <div class="row">
-            <div class="col">
-              <i class="demo-icon icon-mail"></i>
-              <link rel="stylesheet" href="javascript: void(0)">info@hellohelp.com
-            </div>
-            <div class="col">
-              <i class="demo-icon icon-phone"></i>+440 875369208
-            </div>
-            <div class="col">
-              <button type="button" class="btn btn-outline-secondary">Log-in</button>
-            </div>
-            <div class="col">
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap copy.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fontello.css">
+</head>
+
+<body>
+  <!-- Fluid wrapper for the whole page -->
+  <div class="container-fluid">
+    <!-- Header row -->
+    <div class="header-container row">
+      <div class="logo col-md-3"><img src="img/Logo.png" alt="NortSea Logo" /img>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col">
+            <i class="demo-icon icon-mail"></i>
+            <link rel="stylesheet" href="javascript: void(0)">info@hellohelp.com
+          </div>
+          <div class="col">
+            <i class="demo-icon icon-phone"></i>+440 875369208
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-outline-secondary">Log-in</button>
+          </div>
+          <div class="col">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 En
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </div>
-            <div class="col">
-              <i class="demo-icon icon-facebook-squared"></i>
-              <img src="img/twitter.png" alt="twitter logo">
-              <i class="demo-icon icon-instagram"></i>
-              <i class="demo-icon icon-mail"></i>
-            </div>
           </div>
-          <!-- First Stab at Nav Bar Row -->
-          <!-- <div class="row">
+          <div class="col">
+            <i class="demo-icon icon-facebook-squared"></i>
+            <img src="img/twitter.png" alt="twitter logo">
+            <i class="demo-icon icon-instagram"></i>
+            <i class="demo-icon icon-mail"></i>
+          </div>
+        </div>
+        <!-- First Stab at Nav Bar Row -->
+        <!-- <div class="row">
             <div class="col">
               <a href="#Home"></a>Home
             </div>
@@ -90,279 +92,365 @@
         </div>
       </div> -->
         <!-- New nav bar made with bootstrap -->
-          <div class="row">
-            <div class="col-md-12">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
                       </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="demo-icon icon-search"></i></button>
-                  </form>
-                </div>
-              </nav>
-            </div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="demo-icon icon-search"></i></button>
+                </form>
+              </div>
+            </nav>
           </div>
         </div>
       </div>
-      <!-- Carousel, weather, gallery, tour and booking section -->
-      <div class="row"><!--Do I need this row container and following col-md-11?-->
-        <div class="col-md-11">
-          <!-- Carousel -->
-          <div class="carousel row">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="..." alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="..." alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="..." alt="Third slide">
-                </div>
+    </div>
+    <!-- Carousel, weather, gallery, tour and booking section -->
+    <div class="row">
+      <!--Do I need this row container and following col-md-11?-->
+      <div class="col-md-11">
+        <!-- Carousel -->
+        <div class="carousel row">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
               </div>
-              <!-- Arrows for carousel - Ask Kyle if we need it? Or if removing this will break it? -->
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+              </div>
+            </div>
+            <!-- Arrows for carousel - Ask Kyle if we need it? Or if removing this will break it? -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
-          </div>
-            <!-- Text for on top of carousel - Ask Kyle how to structure this area -->
-            <h1>35% Sale</h1>
-            <h2>You enter summer with refreshing rates</h2>
-            <button type="button" class="btn btn-light">Explore it</button>
-        </div>
-        <!-- Weather, Gallery, and Tour Column - Add links after I collect pics -->
-        <div class="col-md-1">
-          <div class="row">
-            <h1>Greece</h1>
-            <i class="demo-icon icon-sun"></i>
-            <p>26°/19°</p>
-            <p>Sunny</p>
-          </div>
-          <div class="row">
-            <h1>Gallery</h1>
-            <i class="demo-icon icon-picture"></i>
-          </div>
-          <div class="row">
-            <h1>360 Virtual Tour</h1>
-            <img src="img/panorama.svg" alt="panorama icon">
           </div>
         </div>
-        <!-- Hotel/booking section - Figure out if I need two rows here or not, also what spacing to use -->
+        <!-- Text for on top of carousel - Ask Kyle how to structure this area -->
+        <h1>35% Sale</h1>
+        <h2>You enter summer with refreshing rates</h2>
+        <button type="button" class="btn btn-light">Explore it</button>
+      </div>
+      <!-- Weather, Gallery, and Tour Column - Add links after I collect pics -->
+      <div class="col-md-1">
         <div class="row">
-          <div class="col-md-12">
-            <i class="demo-icon icon-hospital"></i>
-            <h1>Hotel</h1>
-            <div class="row">
-              <div class="col-md-2">Arrival
-                <!-- Lifted Bootstrap code from previous version for date-picker - Possibly throw out later? Container may be redundant-->
-                <div class="container">
-                  <div class="row">
-                    <div class='col-sm-6'>
-                        <div class="form-group">
-                            <div class='input-group date' id='datetimepicker1'>
-                                <input type='text' class="form-control" />
-                                <span class="input-group-addon">
+          <h1>Greece</h1>
+          <i class="demo-icon icon-sun"></i>
+          <p>26°/19°</p>
+          <p>Sunny</p>
+        </div>
+        <div class="row">
+          <h1>Gallery</h1>
+          <i class="demo-icon icon-picture"></i>
+        </div>
+        <div class="row">
+          <h1>360 Virtual Tour</h1>
+          <img src="img/panorama.svg" alt="panorama icon">
+        </div>
+      </div>
+      <!-- Hotel/booking section - Figure out if I need two rows here or not, also what spacing to use -->
+      <div class="row">
+        <div class="col-md-12">
+          <i class="demo-icon icon-hospital"></i>
+          <h1>Hotel</h1>
+          <div class="row">
+            <div class="col-md-2">Arrival
+              <!-- Lifted Bootstrap code from previous version for date-picker - Possibly throw out later? Container may be redundant-->
+              <div class="container">
+                <div class="row">
+                  <div class='col-sm-6'>
+                    <div class="form-group">
+                      <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" placeholder="16.07.2015" />
+                        <span class="input-group-addon">
                                     <span class="glyphicon glyphicon-calendar"><i class="demo-icon icon-calendar"></i></span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2">Going
-                <!-- Lifted Bootstrap code from previous version for date-picker - Possibly throw out later? Container may be redundant-->
-                <div class="container">
-                  <div class="row">
-                      <div class='col-sm-6'>
-                          <div class="form-group">
-                              <div class='input-group date' id='datetimepicker1'>
-                                  <input type='text' class="form-control" />
-                                  <span class="input-group-addon">
-                                      <span class="glyphicon glyphicon-calendar"><i class="demo-icon icon-calendar"></i></span>
-                                  </span>
-                              </div>
-                          </div>
+                        </span>
                       </div>
-                  </div>
-              </div>
-              </div>
-              <div class="col">Room
-                <!-- Redo this area with Bootstrap forms, Form Controls -->
-                <div class="input-group">
-                  <input type="text" placeholder="2" class="form-control" aria-label="Text input with dropdown button">
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">Person
-                <div class="input-group">
-                  <input type="text" placeholder="2" class="form-control" aria-label="Text input with dropdown button">
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+            <div class="col-md-2">Going
+              <!-- Lifted Bootstrap code from previous version for date-picker - Possibly throw out later? Container may be redundant-->
+              <div class="container">
+                <div class="row">
+                  <div class='col-sm-6'>
+                    <div class="form-group">
+                      <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" placeholder="28.07.2015" />
+                        <span class="input-group-addon">
+                                      <span class="glyphicon glyphicon-calendar"><i class="demo-icon icon-calendar"></i></span>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">Child
-                <div class="input-group">
-                  <input type="text" placeholder="1" class="form-control" aria-label="Text input with dropdown button">
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
+            </div>
+            <div class="col">Room
+              <!-- Redo this area with Bootstrap forms, Form Controls -->
+              <div class="input-group">
+                <input type="text" placeholder="2" class="form-control" aria-label="Text input with dropdown button">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
                   </div>
                 </div>
               </div>
-              <div class="col">Day
-                <div class="input-group">
-                  <input type="text" placeholder="1" class="form-control" aria-label="Text input with dropdown button">
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
+            </div>
+            <div class="col">Person
+              <div class="input-group">
+                <input type="text" placeholder="2" class="form-control" aria-label="Text input with dropdown button">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <button type="button" name="button">Search Book</button>
+            </div>
+            <div class="col">Child
+              <div class="input-group">
+                <input type="text" placeholder="1" class="form-control" aria-label="Text input with dropdown button">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="col">Day
+              <div class="input-group">
+                <input type="text" placeholder="1" class="form-control" aria-label="Text input with dropdown button">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <button type="button" name="button">Search Book</button>
             </div>
           </div>
         </div>
       </div>
-      <!-- Travel, Discover, Book, and Support Area -->
+    </div>
+    <!-- Travel, Discover, Book, and Support Area -->
+    <div class="row">
+      <div class="col">
+        <img src="img/rollingsuitcase.svg" alt="rolling suitcase">
+        <h1>Amazing Travel</h1>
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+        <!-- Default dropright button -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Read More
+            </button>
+          <div class="dropdown-menu">
+            <!-- Dropdown menu links -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="img/map.svg" alt="map">
+        <h1>Discover</h1>
+        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+        <!-- Default dropright button -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Read More
+            </button>
+          <div class="dropdown-menu">
+            <!-- Dropdown menu links -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="img/globe.svg" alt="globe">
+        <h1>Book Your Trip</h1>
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+        <!-- Default dropright button -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Read More
+            </button>
+          <div class="dropdown-menu">
+            <!-- Dropdown menu links -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <img src="img/supporticon.svg" alt="support icon">
+        <h1>Nice Support</h1>
+        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+        <!-- Default dropright button -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Read More
+            </button>
+          <div class="dropdown-menu">
+            <!-- Dropdown menu links -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Hotel Area -->
+    <div class="row">
+      <div class="col">
+        <h1>About Hotel</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </div>
+    </div>
+    <!-- Amenities Array -->
+    <div class="container">
       <div class="row">
         <div class="col">
-          <img src="img/rollingsuitcase.svg" alt="rolling suitcase">
-          <h1>Amazing Travel</h1>
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-          <!-- Default dropright button -->
+          <h1>Restaurant & Banquets</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
           <div class="btn-group dropright">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Read More
-            </button>
+                Read More
+              </button>
             <div class="dropdown-menu">
               <!-- Dropdown menu links -->
             </div>
           </div>
         </div>
         <div class="col">
-          <img src="img/map.svg" alt="map">
-          <h1>Discover</h1>
-          <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-          <!-- Default dropright button -->
+          <h1>Rooms</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
           <div class="btn-group dropright">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Read More
-            </button>
+                Read More
+              </button>
             <div class="dropdown-menu">
               <!-- Dropdown menu links -->
             </div>
           </div>
         </div>
         <div class="col">
-          <img src="img/globe.svg" alt="globe">
-          <h1>Book Your Trip</h1>
-          <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-          <!-- Default dropright button -->
+          <h1>Bar</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
           <div class="btn-group dropright">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Read More
-            </button>
+                Read More
+              </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+            </div>
+          </div>
+        </div>
+        <div class="w-100">
+        </div>
+        <div class="col">
+          <h1>Gym</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Read More
+              </button>
             <div class="dropdown-menu">
               <!-- Dropdown menu links -->
             </div>
           </div>
         </div>
         <div class="col">
-          <i class="demo-icon icon-chat-empty"></i>
-          <h1>Nice Support</h1>
-          <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-          <!-- Default dropright button -->
+          <h1>Spa</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
           <div class="btn-group dropright">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Read More
-            </button>
+                Read More
+              </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h1>Car Parking</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Read More
+              </button>
             <div class="dropdown-menu">
               <!-- Dropdown menu links -->
             </div>
@@ -370,5 +458,193 @@
         </div>
       </div>
     </div>
-  </body>
+    <!-- News and Announcements Row -->
+    <div class="row">
+      <!-- News begins here-->
+      <div class="col-md-7">
+        <h1>News</h1>
+        <div class="row">
+          <div class="col">
+            <img src="img/datepopover1.svg" alt="date popovers">
+          </div>
+          <div class="col">
+            <h1>Lorem Ipsum dolar sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <div class="btn-group dropright">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Read More
+                </button>
+              <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="img/datepopover2.svg" alt="date popovers">
+          </div>
+          <div class="col">
+            <h1>Lorem Ipsum dolar sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <div class="btn-group dropright">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Read More
+                </button>
+              <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="img/datepopover3.svg" alt="date popovers">
+          </div>
+          <div class="col">
+            <h1>Lorem Ipsum dolar sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <div class="btn-group dropright">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Read More
+                </button>
+              <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group dropright">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  View All
+                </button>
+              <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Announcements begin here -->
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col">
+            <h1>Announcements</h1>
+            <div class="row">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <div class="btn-group dropright">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Read More
+                </button>
+                <div class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <div class="btn-group dropright">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Read More
+                </button>
+                <div class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h1>Products</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+            <div class="btn-group dropright">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Read More
+              </button>
+              <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="row">
+      <div class="col">
+        <h1>NortSea About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Read More
+          </button>
+          <div class="dropdown-menu">
+            <!-- Dropdown menu links -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h1>NortSea Hotel</h1>
+        <div class="row">
+          <a href="#About Us">About Us</a>
+          <a href="#Services">Services</a>
+          <a href="#Contact">Contact</a>
+        </div>
+      </div>
+      <div class="col">
+        <h1>Contact Us</h1>
+        <div class="row">
+          <div class="col">
+            <p><i class="demo-icon icon-location"></i>Address:</p>
+          </div>
+          <div class="col">
+            <p>1100 Pico Blvd<br />
+            Santa Monica, CA 90405<br />
+            United States</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p><i class="demo-icon icon-phone"></i>Phone:</p>
+          </div>
+          <div class="col">
+            <p>+440 1233123208</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p><i class="demo-icon icon-paper-plane-empty"></i>Email:</p>
+          </div>
+          <div class="col">
+            <a href="javascript: void(0)">support@nortsea.com</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p><img src="img/compass.svg" alt="compass">GPS:</p>
+          </div>
+          <div class="col">
+            <p>12.021211-118.469009</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="img/bottomlogo.svg" alt="NortSea logo">
+        </div>
+      </div>
+    </footer>
+    <div class="row">
+      <div class="col">
+        <p>Copyright © 2015 NortSea | About NortSea | Contact Support</p>
+      </div>
+      <div class="col">
+        <p>Designed by Faith34</p>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

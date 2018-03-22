@@ -1,0 +1,27 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="189" height="54" viewBox="0 0 189 54">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        fill: #c0a878;
+        font-family: CinzelDecorative;
+      }
+
+      .cls-1, .cls-3 {
+        text-transform: uppercase;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fdfdfd;
+      }
+
+      .cls-3 {
+        font-size: 17.378px;
+        font-family: "PT Serif";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="nortsea" class="cls-1" transform="translate(6.603 30.06) scale(0.715)">nort<tspan class="cls-2">sea</tspan></text>
+  <text id="hotel" class="cls-3" transform="translate(35.603 53.882) scale(0.715)">hotel</text>
+</svg>
