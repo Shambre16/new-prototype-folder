@@ -3,20 +3,21 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Home</title>
   <link rel="stylesheet" href="css/bootstrap copy.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/fontello.css">
+  <script defer src="fonts/fontawesome-all.js"></script>
 </head>
 
 <body>
   <!-- Fluid wrapper for the whole page -->
   <div class="container-fluid">
     <!-- Header row -->
-    <div class="header-container row">
-      <div class="logo col-md-3"><img src="img/Logo.png" alt="NortSea Logo" /img>
+    <div class="row header">
+      <div class="logo col-md-3 bg-light"><img src="img/Logo.png" alt="NortSea Logo" /img>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9 bg-dark">
         <div class="row">
           <div class="col">
             <i class="demo-icon icon-mail"></i>
@@ -94,7 +95,7 @@
         <!-- New nav bar made with bootstrap -->
         <div class="row">
           <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
               <a class="navbar-brand" href="#"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -207,11 +208,13 @@
       </div>
       <!-- Hotel/booking section - Figure out if I need two rows here or not, also what spacing to use -->
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-2 hotel">
           <i class="demo-icon icon-hospital"></i>
           <h1>Hotel</h1>
+        </div>
+        <div class="col-md-12">
           <div class="row">
-            <div class="col-md-2">Arrival
+            <div class="col-md-3">Arrival
               <!-- Lifted Bootstrap code from previous version for date-picker - Possibly throw out later? Container may be redundant-->
               <div class="container">
                 <div class="row">
@@ -228,7 +231,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">Going
+            <div class="col-md-3">Going
               <!-- Lifted Bootstrap code from previous version for date-picker - Possibly throw out later? Container may be redundant-->
               <div class="container">
                 <div class="row">
@@ -245,7 +248,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">Room
+            <div class="col-md-1">Room
               <!-- Redo this area with Bootstrap forms, Form Controls -->
               <div class="input-group">
                 <input type="text" placeholder="2" class="form-control" aria-label="Text input with dropdown button">
@@ -261,7 +264,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">Person
+            <div class="col-md-1">Person
               <div class="input-group">
                 <input type="text" placeholder="2" class="form-control" aria-label="Text input with dropdown button">
                 <div class="input-group-append">
@@ -276,7 +279,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">Child
+            <div class="col-md-1">Child
               <div class="input-group">
                 <input type="text" placeholder="1" class="form-control" aria-label="Text input with dropdown button">
                 <div class="input-group-append">
@@ -291,7 +294,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">Day
+            <div class="col-md-1">Day
               <div class="input-group">
                 <input type="text" placeholder="1" class="form-control" aria-label="Text input with dropdown button">
                 <div class="input-group-append">
@@ -306,7 +309,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
               <button type="button" name="button">Search Book</button>
             </div>
           </div>
