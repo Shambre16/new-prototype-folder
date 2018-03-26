@@ -6,9 +6,33 @@
   background-color: rgb(54, 54, 54);
 }
 
-.page-top {
+.icon-search {
+  color: #919191;
+  font-size: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
+.page-top, .page-bottom {
   background-color: rgb(49, 49, 49);
 }
-.whole-page {
-  background-color: blue;
+
+.sub-footer {
+  background-color: #3f3f3f;
+}
+
+.copyright {
+  margin-left: 15%;
+  text-align: left;
+}
+
+.designer {
+  margin-right: 15%;
+  text-align: right;
+}
+
+.row.page-bottom {
+  background-color: rgb(49, 49, 49);
 }
