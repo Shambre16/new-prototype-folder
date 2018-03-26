@@ -6,6 +6,7 @@
   background-color: rgb(54, 54, 54);
 }
 
+
 .icon-search {
   color: #919191;
   font-size: 20px;
@@ -36,4 +37,12 @@
 
 .row.page-bottom {
   background-color: rgb(49, 49, 49);
+}
+
+.whole-page {
+  background-color: rgb(54, 54, 54);
+}
+
+.log-in-box, .language-box {
+  border-radius: 0px;
 }
