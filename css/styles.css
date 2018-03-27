@@ -1,5 +1,5 @@
-.whole-page {
-  background-color: rgb(54, 54, 54);
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .top-most {
@@ -70,8 +70,17 @@
  color: #acacac;
 }
 
-body > div > footer > div > div.col-md-4.contact.flex-auto.container > div > div.col-md-6.contact-column-one {
-  margin-right: -15%;
+.page-bottom >.container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.contact-column-one {
+  margin-right: -25%;
+}
+
+.contact-column-two {
+  margin-left: -10%;
 }
 
 .sub-footer {
@@ -89,4 +98,22 @@ body > div > footer > div > div.col-md-4.contact.flex-auto.container > div > div
 
 .row.page-bottom {
   background-color: rgb(49, 49, 49);
+}
+
+.demo-icon {
+  background-color: #8d5ba1;
+  color: #ffffff;
+}
+
+.side-by-side i {
+  float: left;
+}
+
+.side-by-side p {
+  margin-left: 5%;
+  color: #6c757d;
+}
+
+.gold {
+  color: #c0a878;
 }
