@@ -2,6 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.whole-page {
+  background-color: rgb(54, 54, 54);
+}
+
 .top-most {
   margin-top: 2%;
   margin-left: 2.5%;
@@ -107,13 +111,81 @@ body {
 
 .side-by-side i {
   float: left;
+  margin-right: 5%;
 }
 
 .side-by-side p {
-  margin-left: 5%;
   color: #6c757d;
 }
 
 .gold {
   color: #c0a878;
+}
+
+.top-nav-bar {
+  padding-left: 1.5%;
+}
+
+.widgets {
+  margin-top: 5%;
+}
+.weather-widget {
+  background: linear-gradient(90deg, #ebd888, #ebc966);
+  color: white;
+  margin-top: 2%;
+  width: 6em;
+}
+
+.weather-widget h6, h5, i, p {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.weather-widget i {
+  font-size: 3em;
+  color: white;
+}
+
+.gallery {
+  background: linear-gradient(90deg, #7f7f7f, #3e3e3e);
+  color: white;
+  margin-top: 2%;
+  width: 6em;
+  height: 5em;
+}
+
+.gallery i {
+  color: white;
+  content-align: center;
+}
+
+.gallery h6, p {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.tour {
+  background-color: #ebebeb;
+  color: #8d8d8d;
+  margin-top: 2%;
+  width: 6em;
+  height: 5em;
+}
+
+.tour h6 {
+  font-size: .75em;
+}
+
+.tour i {
+  color: #8d8d8d;
+  font-size: 3em;
+}
+
+.facilities > h1 {
+  text-align: center;
+}
+
+.facilities {
+  margin-left: 30%;
+  margin-right: 30%;
 }
