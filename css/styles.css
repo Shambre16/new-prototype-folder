@@ -50,9 +50,9 @@
   font-size: 20px;
 }
 
-.flex-auto {
+/* .flex-auto {
   flex-grow: 1;
-}
+} */
 
 .travel-bar {
   margin: 5%;
@@ -66,16 +66,25 @@
   background-image: url("../img/background-pattern.svg");
 }
 
+.page-bottom {
+ color: #acacac;
+}
+
+body > div > footer > div > div.col-md-4.contact.flex-auto.container > div > div.col-md-6.contact-column-one {
+  margin-right: -15%;
+}
+
 .sub-footer {
   background-color: #3f3f3f;
+  color: #6c757d;
 }
 
 .copyright {
-  text-align: left;
+  float: left;
 }
 
 .designer {
-  text-align: right;
+  float: right;
 }
 
 .row.page-bottom {
