@@ -186,6 +186,32 @@ body {
 }
 
 .facilities {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.breadcrumb-row {
+  margin-top: 4%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.breadcrumb-left-col {
+  text-align: left;
+}
+
+.breadcrumb-ol {
+  float: right;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #6c757d;
+}
+.breadcrumb {
+  background-color: transparent;
+}
+
+.mid-section {
+  background-color: #313131;
 }
