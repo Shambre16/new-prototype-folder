@@ -12,11 +12,11 @@
 
 <body>
   <!-- Fluid wrapper for the whole page -->
-  <div class="container-fluid">
+  <div class="container-fluid whole-page">
     <!-- Header row -->
     <header class="container functional-row">
       <div class="row page-top">
-        <div class="col-md-3 d-flex align-items-center justify-content-end logo-top"><img src="img/Logo.png" alt="NortSea Logo" /img>
+        <div class="col-md-3 d-flex align-items-center justify-content-start logo-top"><img src="img/Logo.png" alt="NortSea Logo" /img>
         </div>
         <div class="col-md-9 nortsea-black ">
           <div class="row d-flex align-items-center justify-content-center top-most">
@@ -187,7 +187,7 @@
                           <div class='input-group date' id='datetimepicker1'>
                             <input type='text' class="form-control" placeholder="16.07.2015" />
                             <span class="input-group-addon">
-                                        <span class="glyphicon glyphicon-calendar"><i class="demo-icon icon-calendar"></i></span>
+                                        <span class="glyphicon glyphicon-calendar"><i class="icon-calendar"></i></span>
                             </span>
                           </div>
                         </div>
@@ -204,7 +204,7 @@
                           <div class='input-group date' id='datetimepicker1'>
                             <input type='text' class="form-control" placeholder="28.07.2015" />
                             <span class="input-group-addon">
-                                          <span class="glyphicon glyphicon-calendar"><i class="demo-icon icon-calendar"></i></span>
+                                          <span class="glyphicon glyphicon-calendar"><i class="icon-calendar"></i></span>
                             </span>
                           </div>
                         </div>
@@ -285,15 +285,15 @@
     <!-- Travel, Discover, Book, and Support Area -->
     <section class="row content-background-one">
       <div class="container">
-        <div class="mid-section">
+
           <div class="row travel-bar">
-            <div class="col">
+            <div class="col travel-bar-columns">
               <img src="img/rollingsuitcase.svg" alt="rolling suitcase">
-              <h1>Amazing Travel</h1>
+              <h5 cla>Amazing Travel</h5>
               <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
               <!-- Default dropright button -->
               <div class="btn-group dropright">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Read More
                   </button>
                 <div class="dropdown-menu">
@@ -301,13 +301,13 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col travel-bar-columns">
               <img src="img/map.svg" alt="map">
-              <h1 class="gold">Discover</h1>
+              <h5 class="gold">Discover</h5>
               <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
               <!-- Default dropright button -->
               <div class="btn-group dropright">
-                <button type="button" class="btn btn-secondary dropdown-toggle gold" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-secondary dropdown-toggle gold background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Read More
                   </button>
                 <div class="dropdown-menu">
@@ -315,13 +315,13 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col travel-bar-columns">
               <img src="img/globe.svg" alt="globe">
-              <h1>Book Your Trip</h1>
+              <h5>Book Your Trip</h5>
               <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
               <!-- Default dropright button -->
               <div class="btn-group dropright">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Read More
                   </button>
                 <div class="dropdown-menu">
@@ -329,13 +329,13 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col travel-bar-columns">
               <img src="img/supporticon.svg" alt="support icon">
-              <h1>Nice Support</h1>
+              <h5>Nice Support</h5>
               <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
               <!-- Default dropright button -->
               <div class="btn-group dropright">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Read More
                   </button>
                 <div class="dropdown-menu">
@@ -345,20 +345,20 @@
             </div>
           </div>
           <!-- About Hotel Area -->
-          <div class="row">
-            <div class="col">
+          <div class="row central-info">
+            <div class="col text-center align-middle">
               <h1 class="gold">About Hotel</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <p class="about-hotel-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
           </div>
           <!-- Amenities Array -->
-          <div class="container">
+          <div class="container d-flex justify-content-between">
             <div class="row">
-              <div class="col">
-                <h1>Restaurant & Banquets</h1>
+              <div class="col amenity-columns d-flex flex-column justify-content-center align-item-center">
+                <h6 class="text-uppercase font-weight-bold">Restaurant & Banquets</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropright">
+                  <button type="button" class="btn btn-secondary dropdown-toggle background-match font-italic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                   <div class="dropdown-menu">
@@ -366,11 +366,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <h1>Rooms</h1>
+              <div class="col amenity-columns d-flex flex-column justify-content-center align-item-center">
+                <h6 class="text-uppercase font-weight-bold">Rooms</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropright">
+                  <button type="button" class="btn btn-secondary dropdown-toggle background-match font-italic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                   <div class="dropdown-menu">
@@ -378,11 +378,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <h1>Bar</h1>
+              <div class="col amenity-columns d-flex flex-column justify-content-center align-item-center">
+                <h6 class="text-uppercase font-weight-bold">Bar</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropright">
+                  <button type="button" class="btn btn-secondary dropdown-toggle background-match font-italic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                   <div class="dropdown-menu">
@@ -392,11 +392,11 @@
               </div>
               <div class="w-100">
               </div>
-              <div class="col">
-                <h1>Gym</h1>
+              <div class="col amenity-columns d-flex flex-column justify-content-center align-item-center">
+                <h6 class="text-uppercase font-weight-bold">Gym</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropright">
+                  <button type="button" class="btn btn-secondary dropdown-toggle background-match font-italic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                   <div class="dropdown-menu">
@@ -404,11 +404,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <h1>Spa</h1>
+              <div class="col amenity-columns d-flex flex-column justify-content-center align-item-center">
+                <h6 class="text-uppercase font-weight-bold">Spa</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropright">
+                  <button type="button" class="btn btn-secondary dropdown-toggle background-match font-italic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                   <div class="dropdown-menu">
@@ -416,11 +416,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <h1>Car Parking</h1>
+              <div class="col amenity-columns d-flex flex-column justify-content-center align-item-center">
+                <h6 class="text-uppercase font-weight-bold">Car Parking</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                <div class="btn-group dropright">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="dropright">
+                  <button type="button" class="btn btn-secondary dropdown-toggle background-match font-italic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                   <div class="dropdown-menu">
@@ -436,14 +436,14 @@
             <div class="col-md-7">
               <h1>News</h1>
               <div class="row">
-                <div class="col">
+      <div class="col">
                   <img src="img/datepopover1.svg" alt="date popovers">
                 </div>
                 <div class="col">
                   <h1>Lorem Ipsum dolar sit amet</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                   <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Read More
                       </button>
                     <div class="dropdown-menu">
@@ -460,7 +460,7 @@
                   <h1>Lorem Ipsum dolar sit amet</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                   <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Read More
                       </button>
                     <div class="dropdown-menu">
@@ -477,7 +477,7 @@
                   <h1>Lorem Ipsum dolar sit amet</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                   <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Read More
                       </button>
                     <div class="dropdown-menu">
@@ -489,7 +489,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         View All
                       </button>
                     <div class="dropdown-menu">
@@ -508,7 +508,7 @@
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <div class="btn-group dropright">
-                      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Read More
                       </button>
                       <div class="dropdown-menu">
@@ -520,7 +520,7 @@
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <div class="btn-group dropright">
-                      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Read More
                       </button>
                       <div class="dropdown-menu">
@@ -533,7 +533,7 @@
                   <h1>Products</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                   <div class="btn-group dropright">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Read More
                     </button>
                     <div class="dropdown-menu">
@@ -555,7 +555,7 @@
             <h3>NortSea About</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
             <div class="btn-group dropright">
-              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Read More
               </button>
               <div class="dropdown-menu">

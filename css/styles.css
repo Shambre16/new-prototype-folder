@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #c8c8c8;
 }
 
 .whole-page {
@@ -22,6 +23,7 @@ body {
 
 .logo-top {
   background-color: rgb(255, 255, 255);
+
 }
 
 .nortsea-black {
@@ -29,7 +31,7 @@ body {
 }
 
 .log-in-box, .dropdown-toggle {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .language-box {
@@ -58,16 +60,18 @@ body {
   flex-grow: 1;
 }
 
-.travel-bar {
-  margin: 5%;
-}
 
 .page-top, .page-bottom {
   background-color: rgb(49, 49, 49);
 }
 
 .content-background-one {
-  background-image: url("../img/background-pattern.svg");
+  background-image: url("../img/background-texture.png");
+}
+
+.content-background-one >.container {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .page-bottom {
@@ -80,7 +84,7 @@ body {
 }
 
 .contact-column-one {
-  margin-right: -25%;
+  margin-right: -19%;
 }
 
 .contact-column-two {
@@ -136,10 +140,13 @@ body {
   width: 6em;
 }
 
-.weather-widget h6, h5, i, p {
+/* Causing issues with alignement on all other ps
+ {
+
+}.weather-widget h6, h5, i, p {
   text-align: left;
   margin-left: 10%;
-}
+} */
 
 .weather-widget i {
   font-size: 3em;
@@ -159,10 +166,11 @@ body {
   content-align: center;
 }
 
+/* Causing issues with all other ps
 .gallery h6, p {
   text-align: left;
   margin-left: 10%;
-}
+} */
 
 .tour {
   background-color: #ebebeb;
@@ -194,6 +202,7 @@ body {
   margin-top: 4%;
   margin-left: 9%;
   margin-right: 9%;
+  margin-bottom: 4%;
 }
 
 .breadcrumb-left-col {
@@ -214,4 +223,99 @@ body {
 
 .mid-section {
   background-color: #313131;
+}
+
+.icon-picture-row {
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+.icon-picture i {
+  align-content: space-around;
+}
+
+.italic-bolder {
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.italic-normal {
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.background-match {
+  background-color: transparent;
+  border-color: transparent;
+  color: #636363;
+}
+
+.sub-footer >.container {
+  margin-top: .75%;
+  margin-bottom: .25%;
+}
+
+.page-top >.container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.travel-bar > .col > img {
+  margin-bottom: 10%;
+}
+
+.travel-bar > .col > h5 {
+  color: black;
+}
+
+.travel-bar > .col > h5.gold {
+  color: #c0a878;
+}
+
+body > div > section.row.content-background-one > div > div.row.travel-bar > div:nth-child(2) > div > button {
+  color: #c0a878;
+}
+
+.travel-bar > .col > p > {
+  color: rgb(149, 149, 149);
+  margin: 0;
+}
+
+
+div.row.travel-bar {
+  text-align: center;
+  width: 80rem;
+}
+
+.central-info > h1 {
+  text-align: center;
+}
+
+.central-info {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about-hotel-p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.amenity-columns > h6 {
+  color: #464646;
+}
+
+.amenity-columns {
+  border: 1em solid black;
+  text-align: center;
+  margin: 1% 1% 1% 1%;
+  height: 15rem;
+}
+
+.amenity-columns > h6 {
+  margin-top: 2%;
 }
