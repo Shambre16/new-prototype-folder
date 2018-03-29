@@ -249,7 +249,7 @@ body {
 .background-match {
   background-color: transparent;
   border-color: transparent;
-  color: #636363;
+  color: #bdbdbd;
 }
 
 .sub-footer >.container {
@@ -319,3 +319,9 @@ div.row.travel-bar {
 .amenity-columns > h6 {
   margin-top: 2%;
 }
+
+/* @media (min-width: 575px) {
+  .amenity-columns {
+    background-color: purple;
+  }
+} */
