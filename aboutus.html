@@ -11,7 +11,101 @@
   </head>
 
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid whole-page">
+      <header class="container functional-row">
+        <div class="row page-top">
+          <div class="col-md-3 d-flex align-items-center justify-content-start logo-top"><img src="img/Logo.png" alt="NortSea Logo" /img>
+          </div>
+          <div class="col-md-9 nortsea-black ">
+            <div class="row d-flex align-items-center justify-content-center top-most">
+              <div class="col-md-3 top-nav-bar">
+                <i class="icon-mail"></i>
+                <a href="mailto: info@hellohelp.com">info@hellohelp.com</a>
+              </div>
+              <div class="col-md-3">
+                <i class="icon-phone-in-talk"></i><a href="tel:+440 875369208">+440 875369208</a>
+              </div>
+              <div class="col-md-2">
+                <button type="button" class="btn btn-outline-secondary d-flex align-items-center justify-content-center log-in-box">LOG IN<i class="icon-right-open"></i></button>
+              </div>
+              <div class="col-md-2">
+                <div class="dropdown">
+                  <button class="btn btn-outline-secondary dropdown-toggle language-box" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    EN
+                    </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">TR</a>
+                    <a class="dropdown-item" href="#">ES</a>
+                    <a class="dropdown-item" href="#">PT</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 d-flex align-items-center justify-content-center social-link-bar">
+                <a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook-squared"></i></a>
+                <a href="https://twitter.com/"><i class="icon-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="icon-instagram"></i></a>
+                <a href="mailto: info@hellohelp.com"><i class="icon-mail"></i></a>
+              </div>
+            </div>
+            <!-- New nav bar made with bootstrap -->
+            <div class="row">
+              <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-between flex-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li>
+                        <form class="form-inline my-2 my-lg-0">
+                          <!-- <input class="form-control mr-sm-2 invisible" type="search" placeholder="Search" aria-label="Search"> -->
+                          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i class="icon-search"></i></button>
+                        </form>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
       <!-- Breadcrumb Section -->
       <div class="row mid-section">
         <div class="container">
@@ -35,12 +129,94 @@
         <div class="container">
             <div class="row">
               <div class=col>
-                
+
               </div>
             </div>
         </div>
       </div>
-
+      <!-- Footer Section -->
+      <footer class="row page-bottom">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="row">
+            <div class="col-md-3 about">
+              <h3>NortSea About</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+              <div class="btn-group dropright">
+                <button type="button" class="btn btn-secondary dropdown-toggle background-match" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Read More
+                </button>
+                <div class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hotel">
+              <h3>NortSea Hotel</h3>
+              <div class="row">
+                <a class="col-md-12" href="aboutus.html">About Us</a>
+                <a class="col-md-12" href="services.html">Services</a>
+                <a class="col-md-12" href="contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="col-md-5 contact">
+              <h3>Contact Us</h3>
+              <div class="row">
+                <div class="row">
+                  <div class="col contact-column-one gold">
+                    <p><i class="icon-location gold"></i>Address:</p>
+                  </div>
+                  <div class="col contact-column-two">
+                    <p>1100 Pico Blvd<br />Santa Monica, CA 90405<br />United States</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col contact-column-one">
+                    <p class="gold"><i class="icon-phone gold"></i>Phone:</p>
+                  </div>
+                  <div class="col contact-column-two">
+                    <a href="tel: +440 1233123208" target="_blank">+440 1233123208</a>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col contact-column-one">
+                    <p class="gold"><i class="icon-paper-plane-empty gold"></i>Email:</p>
+                  </div>
+                  <div class="col contact-column-two">
+                    <a href="mailto: support@nortsea.com" target="_blank">support@nortsea.com</a>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col contact-column-one">
+                    <p class="gold"><i class="icon-compass gold"></i>GPS:</p>
+                  </div>
+                  <div class="col contact-column-two">
+                    <p>12.021211-118.469009</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="col-md-1 d-flex align-items-center justify-content-end logo-bottom">
+              <img src="img/bottomlogo.png" alt="NortSea logo">
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Sub-footer Section -->
+      <section class="row sub-footer">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="copyright">Copyright © 2015 NortSea | <a href="aboutus.html">About NortSea</a> | <a href="support@nortsea.com" target="_blank">Contact Support</a>
+              <p class="designer">Designed by Faith34</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
-</html>
+
+  </html>

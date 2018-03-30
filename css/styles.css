@@ -140,7 +140,7 @@ body {
   width: 6em;
 }
 
-/* Causing issues with alignement on all other ps
+/* Causing issues with alignment on all other ps
  {
 
 }.weather-widget h6, h5, i, p {
@@ -284,11 +284,6 @@ body > div > section.row.content-background-one > div > div.row.travel-bar > div
 }
 
 
-div.row.travel-bar {
-  text-align: center;
-  width: 80rem;
-}
-
 .central-info > h1 {
   text-align: center;
 }
@@ -320,8 +315,19 @@ div.row.travel-bar {
   margin-top: 2%;
 }
 
-/* @media (min-width: 575px) {
-  .amenity-columns {
-    background-color: purple;
+.hotel-bar {
+  background-color: #fafafa;
+}
+
+.read-more {
+
+}
+@media (max-width: 575px) {
+  .travel-bar-columns {
+    width: 50em;
   }
+}
+
+/* .news, .announcements, .products {
+  border: 1px solid gray;
 } */
