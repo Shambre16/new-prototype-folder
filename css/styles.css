@@ -324,10 +324,15 @@ body > div > section.row.content-background-one > div > div.row.travel-bar > div
 }
 @media (max-width: 575px) {
   .travel-bar-columns {
-    width: 50em;
+    /* width: 50em; */
   }
 }
 
+@media (max-width: 575px) {
+  .top-most {
+    visibility: hidden;
+  }
+}
 /* .news, .announcements, .products {
   border: 1px solid gray;
 } */
