@@ -131,13 +131,14 @@ body {
 }
 
 .widgets {
-  margin-top: 5%;
 }
+
 .weather-widget {
   background: linear-gradient(90deg, #ebd888, #ebc966);
   color: white;
   margin-top: 2%;
-  width: 6em;
+  width: 8.5em;
+  height: 13.75em;
 }
 
 /* Causing issues with alignment on all other ps
@@ -157,8 +158,8 @@ body {
   background: linear-gradient(90deg, #7f7f7f, #3e3e3e);
   color: white;
   margin-top: 2%;
-  width: 6em;
-  height: 5em;
+  width: 8.5em;
+  height: 13.5em;
 }
 
 .gallery i {
@@ -176,8 +177,8 @@ body {
   background-color: #ebebeb;
   color: #8d8d8d;
   margin-top: 2%;
-  width: 6em;
-  height: 5em;
+  width: 8.5em;
+  height: 13.5em;
 }
 
 .tour h6 {
@@ -336,3 +337,14 @@ body > div > section.row.content-background-one > div > div.row.travel-bar > div
 /* .news, .announcements, .products {
   border: 1px solid gray;
 } */
+
+.carousel-indicators {
+  justify-content: left;
+  margin: 1%;
+}
+
+.carousel-caption {
+  padding-bottom: 35%;
+  left: 0;
+  font-weight: bold;
+}
